@@ -1,0 +1,30 @@
+{
+	"fields": [
+		{
+			"name": "AreaChecklist",
+			"title": "Area Checklist",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "ProposedAuditStartDate",
+			"title": "Proposed Audit StartDate",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "DateAuditCompleted",
+			"title": "Date Audit Completed",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m"
+			}
+		}
+	]
+}
